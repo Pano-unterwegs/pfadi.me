@@ -19,7 +19,7 @@ Colours:
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700);
 
 body {
-    font-size: 13px;
+    font-size: 16px;
     font-family: "Open Sans", sans-serif !important;
     white-space: pre-wrap;
 }
@@ -27,7 +27,7 @@ body {
 button {
     border: none;
     padding: 0 5px;
-    background: none;
+    background: #eba83ba5;
     margin: 0;
 }
 
@@ -98,24 +98,24 @@ div.page {
  ******************************************************************************/
 
 div.tree {
-    font-size: 12px;
+    font-size: 20px;
     color: #666666;
 }
 
 /* fix for firefox */
 div.tree button {
-    border-width: 2px;
+    border-width: 4px;
 }
 
 div.tree a, div.tree a:visited {
-    color: #666666;
+    color: #313131;
     text-decoration: none;
 }
 
 div.tree ul {
     padding-inline-start: 20px;
     list-style-type: none;
-    line-height: 0.3;
+    line-height: 0.5;
 }
 
 div.tree ul.outermost {
@@ -127,7 +127,7 @@ div.tree li {
 }
 div.tree li.leaf {
     padding-inline-start: 10px;
-    line-height: 2;
+    line-height: 5;
 }
 .tree li a {
     width: 100%;
